@@ -1,0 +1,69 @@
+01 - Escreva um programa para o CS que leia um conjunto de notas de alunos contidas em 
+cartões, calcule e imprima quantos alunos foram aprovados. Para passar de ano, o aluno 
+deve ter nota maior ou igual a 60. O último cartão (flag) terá o valor -1.
+
+E01 - INSIRA O VALOR 0 EM E06 E E07;
+E02 - SE O VALOR NO E07 FOR MAIOR OU IGUAL A 60 PEGUE O VALOR DE E06 E SOME MAIS 1
+E03 - SE O VALOR DE E07 FOR IGUAL A -1 AVANCE PARA E08
+E04 - PEGUE UM CARTAO COM A NOTA DE UM ALUNO E COPIE PARA E07
+E05 - RETORNE PARA E02
+E06 - 1
+E07 - -1
+E08 - IMPRIMA O VALOR DE E06 NA TELA
+E09 - PARE O PROGRAMA
+
+~ TELA.PRINT(1)
+
+CARTOES COM NOTAS DOS ALUNOS: 
+*19
+*25
+*91
+*-1
+
+
+02 - Em um campeonato, durante o mês de janeiro, foram anotados diariamente em cartões, 
+quantos gols foram marcados. Crie um programa em CS capaz de ler estes cartões e 
+imprimir a média de gols do mês de janeiro, lembrando que janeiro possui 31 dias. 
+
+E00 - INSIRA O VALOR 0 NO ESCANINHO E09
+E01 - PEGUE UM CARTAO COM O NUMERO DE GOLS MARCADO E INSIRA SEU VALOR NO ESCANINHO E08
+E02 - SE O VALOR NO ESCANINHO E08 FOR IGUAL A -1 AVANCE PARA O ESCANINHO E06
+E03 - PEGUE O VALOR NO ESCANINHO E08 E SOME COM O VALOR NO ESCANINHO E09
+E04 - PEGUE O VALOR DE E10 E SOME MAIS 1 
+E05 - RETORNE PARA E01
+E06 - INSIRA O VALOR DE E09 DIVIDIDO POR E10 EM E11
+E07 - AVANCE PARA O ESCANINHO E12
+
+E08 - 
+E09 - GOLS MARCADOS: 
+E10 - NUMERO DE CARTOES PARA CALCULAR A MEDIA:
+E11 - 
+
+E12 - IMPRIMA O VALOR EM E011 NA TELA
+E13 - PARE O PROGRAMA
+
+
+GOLS MARCADOS:
+DIA-01: 2
+DIA-02: 5
+DIA-03: 4
+DIA-04: 1
+DIA-05: 2
+DIA-06: 1
+DIA-07: 8
+DIA-08: 3
+DIA-09: 4
+DIA-10: 8
+DIA-11: 5
+DIA-12: 4
+DIA-13: 8
+DIA-14: 6
+DIA-15: 5
+DIA-16: 3
+DIA-17: 2
+DIA-18: 3
+DIA-19: -1
+
+
+
+
